@@ -46,5 +46,5 @@ CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
 CONFIG_ZMK_SLEEP=y
 #CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=20000
 
-
-CONFIG_ZMK_SETTINGS_RESET_ON_START=y
+#Uncomment to reset bluetooth settings. Need to rebuild and reflash afterwards with this setting off. 
+#CONFIG_ZMK_SETTINGS_RESET_ON_START=y
